@@ -62,4 +62,4 @@ xlabel('Transmission Distance');
 ylabel('BER');
 grid;
 
-test_blk_decoder
+%test_blk_decoder
