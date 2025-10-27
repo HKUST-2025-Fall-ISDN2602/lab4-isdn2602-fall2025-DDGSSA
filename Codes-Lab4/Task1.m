@@ -5,11 +5,11 @@ addpath("library_p\");
 
 % Load the input image
 lorem_img = imread('lorem_img.png');
- 
+lorem_img = rot90(lorem_img); 
 % display the raw image
 figure(1); clf;
 imshow(lorem_img);
-title('Original image');
+title('Rot image');
 
 % run-length encode
 run_length_code = runlength_encode(lorem_img);
